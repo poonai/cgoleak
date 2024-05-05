@@ -1,4 +1,4 @@
-# cgoleak: A ebpf based memeory leak detector for CGO program
+# cgoleak: A ebpf based memory leak detector for CGO program
 
 The go pprof only shows the memory which is allocated by the go-runtime, so cgo allocations
 go un-noticed, which makes hard to debug cgo memeory leaks. This project aims to help developers to detect memory leaks in go program with c bindings.
